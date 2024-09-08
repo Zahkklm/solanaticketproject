@@ -1,6 +1,6 @@
 # Solana Etkinlik Bileti Sistemi
 
-Bu proje, etkinlik yönetimini sağlayan bir Solana akıllı sözleşmesidir. Etkinlik oluşturma, bilet basma ve SPL token kullanarak bilet transferi gibi işlevler içerir. Program, Anchor çerçevesi kullanılarak geliştirilmiştir.
+Bu proje, etkinlik yönetimini sağlayan bir Solana akıllı sözleşmesidir (program). Etkinlik oluşturma, bilet basma ve SPL token kullanarak bilet transferi gibi işlevler içerir. Program, Anchor framework kullanılarak geliştirilmiştir.
 
 ## Özellikler
 
@@ -17,6 +17,8 @@ Bu proje, etkinlik yönetimini sağlayan bir Solana akıllı sözleşmesidir. Et
 
 ## Kurulum
 
+(WSL Ubuntu kullanılarak test edilmiştir.)
+
 1. **Rust ve Anchor'ı Kurma**
 
     ```bash
@@ -25,14 +27,14 @@ Bu proje, etkinlik yönetimini sağlayan bir Solana akıllı sözleşmesidir. Et
     cargo install anchor-cli --locked
     ```
 
-2. **Depoyu Klonlayın**
+2. **Projeyi klonlamak için**
 
     ```bash
-    git clone <depo-url>
-    cd <depo-dizini>
+    git clone https://github.com/Zahkklm/solanaticketproject
+    cd solanaticketproject
     ```
 
-3. **Bağımlılıkları Kurun**
+3. **Build Etmek için**
 
     ```bash
     anchor build
